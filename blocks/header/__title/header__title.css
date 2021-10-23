@@ -1,0 +1,21 @@
+.header__title {
+    margin: 0;
+    padding: 56px 0 0 0;
+    max-width: 720px;
+
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 96px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.04;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+    .header__title {
+        padding-top: 48px;
+        font-size: 40px;
+        line-height: 1.1;
+    }
+}
