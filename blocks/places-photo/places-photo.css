@@ -1,0 +1,15 @@
+.places-photo {
+    padding: 92px 3.75% 0;
+}
+
+@media screen and (max-width: 768px) {
+    .places-photo {
+        padding: 88px 3.125% 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places-photo {
+        padding: 64px 5% 0;
+    }
+}
