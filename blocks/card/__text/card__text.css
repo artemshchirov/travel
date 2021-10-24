@@ -1,0 +1,20 @@
+.card__text {
+    margin: 27px 0 0;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.63;
+}
+
+.card__text:first-of-type {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .card__text {
+        font-size: 16px;
+        line-height: 1.63;
+    }
+}
