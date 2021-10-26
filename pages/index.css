@@ -40,7 +40,7 @@
 @import url(../blocks/card/__link/card__link.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__text/card__text.css);
-@import url(../blocks/places-description/__list/_space-between/places-description__list_space-between.css);
+@import url(../blocks/card/_space-between/card_space-between.css);
 
 /* Cover */
 @import url(../blocks/cover/cover.css);
