@@ -2,7 +2,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    /* z-index: 1; */
     opacity: .7;
     transition: opacity .3s ease-out;
 }
