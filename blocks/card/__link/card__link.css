@@ -7,4 +7,10 @@
     font-size: 18px;
     line-height: 1.22;
     text-decoration: underline;    
+    opacity: 1;
+    transition: opacity .1s;
+}
+
+.card__link:hover {
+    opacity: .8;
 }
