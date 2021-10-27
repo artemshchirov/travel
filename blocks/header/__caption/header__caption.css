@@ -1,12 +1,7 @@
 .header__caption {
-    margin: 0;
-    padding: 8px calc(100% - 11.56% - 158px) 0  11.56%;
-    color: #FFFFFF;
-    width: 158px;
-    height: 14px;
+    /* margin: 0; */
+    margin: 8px calc(100% - 11.56% - 158px) 0  11.56%;
     text-align: start;
-
-    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -17,21 +12,21 @@
 
 @media screen and (max-width: 1024px) {
     .header__caption {
-        padding-left: 4.68%;
-        padding-right: calc(100% - 4.68% - 158px);
+        margin-left: 4.68%;
+        margin-right: calc(100% - 4.68% - 158px);
     }
 }
 
 @media screen and (max-width: 768px) {
     .header__caption {
-        padding-left: 3.12%;
-        padding-right: calc(100% - 3.12% - 158px);
+        margin-left: 3.12%;
+        margin-right: calc(100% - 3.12% - 158px);
     }
 }
 
 @media screen and (max-width: 320px) {
     .header__caption {
-        padding-left: 5%;
-        padding-right: calc(100% - 5% - 158px);
+        margin-left: 5%;
+        margin-right: calc(100% - 5% - 158px);
     }
 }

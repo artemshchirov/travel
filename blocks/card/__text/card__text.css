@@ -1,7 +1,7 @@
 .card__text {
-    margin: 27px 0 0;
+    margin: 0;
+    padding-top: 27px;
     color: #fff;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -9,7 +9,7 @@
 }
 
 .card__text:first-of-type {
-    margin-top: 0;
+    padding-top: 0;
 }
 
 @media screen and (max-width: 768px) {
