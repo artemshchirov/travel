@@ -1,6 +1,6 @@
 .footer__copyright {
     margin: 0;
-
+    min-width: max-content;
     color: #fff;
     font-family: 'Inter';
     font-style: normal;

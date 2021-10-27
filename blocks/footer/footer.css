@@ -1,6 +1,7 @@
 .footer {
     padding: 92px 3.75% 24px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
