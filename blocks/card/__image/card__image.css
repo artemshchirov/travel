@@ -1,4 +1,5 @@
 .card__image {
+    grid-area: img;
     max-width: 460px;
     justify-self: center;
 }
