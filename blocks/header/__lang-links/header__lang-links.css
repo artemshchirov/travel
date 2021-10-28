@@ -1,3 +1,21 @@
 .header__lang-links {
     display: flex;
 }
+
+@media screen and (max-width: 1024px) {
+    .header__lang-links {
+        margin-right: 4.68%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang-links {
+        margin-right: 3.12%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-links {
+        margin-right: 5%;
+    }
+}
