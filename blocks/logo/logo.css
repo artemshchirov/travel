@@ -1,9 +1,22 @@
 .logo {
+    margin-left: 3.75%;
     max-width: 176px;
 }
 
+@media screen and (max-width: 1024px) {
+    .logo {
+        margin-left: 4.68%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-left: 3.12%;
+    }
+}
 @media screen and (max-width: 320px) {
     .logo {
+        margin-left: 5%;
         max-width: 142px;
     }
 }

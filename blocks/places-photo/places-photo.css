@@ -1,5 +1,8 @@
 .places-photo {
     padding: 92px 3.75% 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
 }
 
 @media screen and (max-width: 768px) {

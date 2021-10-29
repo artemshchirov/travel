@@ -1,4 +1,6 @@
 .card {
+    margin-top: 80px;
+    padding: 92px 11.5625% 0;
     display: grid;
     grid-template-areas: 
     "title url"
@@ -6,20 +8,28 @@
     gap: 48px 40px;
 }
 
+.card:first-of-type {
+    margin-top: 0;
+}
+
 @media screen and (max-width: 1024px) {
     .card {
+        padding: 92px 4.6875% 0;
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .card {
+        margin-top: 72px;
+        padding: 88px 3.125% 0;
         column-gap: 28px;
     }
 }
 
 @media screen and (max-width: 666px) {
     .card {
+        margin-top: 50px;
         grid-template-areas: 
         "title"
         "url"
@@ -29,3 +39,8 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    .card {
+        padding: 64px 5% 0;
+    }
+}
