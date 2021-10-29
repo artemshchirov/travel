@@ -1,7 +1,7 @@
 .footer__copyright {
     margin: 0;
-    min-width: max-content;
-    align-self: end;
+    min-width: min-content;
+    justify-self: flex-start;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

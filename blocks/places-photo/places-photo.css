@@ -1,9 +1,17 @@
 .places-photo {
+    box-sizing: border-box;
     padding: 92px 3.75% 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places-photo {
+        padding: 92px 4.6875% 0;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .places-photo {
@@ -13,6 +21,7 @@
 
 @media screen and (max-width: 320px) {
     .places-photo {
+        gap: 12px;
         padding: 64px 5% 0;
     }
 }

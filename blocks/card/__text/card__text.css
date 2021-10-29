@@ -1,4 +1,5 @@
 .card__text {
+    max-width: 484px;
     grid-area: text;
     margin: 0;
     padding-top: 27px;
@@ -13,14 +14,24 @@
     padding-top: 0;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .card__text {
+        max-width: 456px;
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .card__text {
+        max-width: 352px;
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .card__text {
+        max-width: 288px;
         font-size: 16px;
         margin: 0 5%;
     }
