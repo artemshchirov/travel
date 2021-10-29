@@ -1,4 +1,5 @@
 .intro {
+    /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
     padding: 92px 34.53% 0 11.56%;
@@ -6,7 +7,7 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-        padding: 92px 27.92% 0 11.56%;
+        padding: 92px 27.92% 0 4.6875%;
     }
 }
 

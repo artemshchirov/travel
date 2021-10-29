@@ -4,3 +4,9 @@
     flex-direction: column;
     justify-content: end;
 }
+
+@media screen and (max-width: 320px) {
+    .card__link-container {
+        margin: 0 5%;
+        }
+}

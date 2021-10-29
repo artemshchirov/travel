@@ -1,21 +1,15 @@
-/* .places-description {
-    padding: 92px 11.5625% 0;
-}
-
-@media screen and (max-width: 1024px) {
-    .places-description {
-        padding: 92px 4.6875% 0;
-    }
+.places-description {
+    padding-top: 12px;
 }
 
 @media screen and (max-width: 768px) {
     .places-description {
-        padding: 88px 3.125% 0;
+        padding-top: 15px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .places-description {
-        padding: 64px 5% 0;
+        padding-top: 14px;
     }
-} */
+}
