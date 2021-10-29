@@ -1,19 +1,13 @@
 .header__lang-link {
     padding: 18px 18px 0 0;
-    color: #fff;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 1.16;
-    text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
     padding-right: 0;
-}
-
-.header__lang-link_active {
-    text-decoration: underline;
 }
 
 @media screen and (max-width: 320px) {

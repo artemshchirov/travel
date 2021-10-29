@@ -6,11 +6,11 @@
     font-size: 12px;
     line-height: 1.7;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
     .card__link-heading {
-        font-size: 12px;
         line-height: 1;
         }
 }
