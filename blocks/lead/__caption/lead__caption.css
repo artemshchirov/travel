@@ -1,4 +1,4 @@
-.header__caption {
+.lead__caption {
     /* margin: 0; */
     margin: 8px calc(100% - 11.56% - 158px) 0  11.56%;
     text-align: start;
@@ -11,21 +11,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .header__caption {
+    .lead__caption {
         margin-left: 4.68%;
         margin-right: calc(100% - 4.68% - 158px);
     }
 }
 
 @media screen and (max-width: 768px) {
-    .header__caption {
+    .lead__caption {
         margin-left: 3.12%;
         margin-right: calc(100% - 3.12% - 158px);
     }
 }
 
 @media screen and (max-width: 320px) {
-    .header__caption {
+    .lead__caption {
         margin-left: 5%;
         margin-right: calc(100% - 5% - 158px);
     }

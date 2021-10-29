@@ -1,24 +1,24 @@
-.header__main-illustration {
+.lead__main-illustration {
     margin: 64px 11.56% 0;
     max-width: 984px;
     width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-    .header__main-illustration {
+    .lead__main-illustration {
         margin: 56px 4.68% 0;
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .header__main-illustration {
+    .lead__main-illustration {
         margin-top: 56px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .header__main-illustration {
+    .lead__main-illustration {
         margin-top: 40px;
     }
 }
