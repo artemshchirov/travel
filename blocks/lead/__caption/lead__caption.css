@@ -1,6 +1,5 @@
 .lead__caption {
-    /* margin: 0; */
-    margin: 8px calc(100% - 11.56% - 158px) 0  11.56%;
+    margin: 8px auto 0  0;
     text-align: start;
     font-style: normal;
     font-weight: normal;
@@ -10,23 +9,14 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 1024px) {
-    .lead__caption {
-        margin-left: 4.68%;
-        margin-right: calc(100% - 4.68% - 158px);
-    }
-}
-
 @media screen and (max-width: 768px) {
     .lead__caption {
         margin-left: 3.12%;
-        margin-right: calc(100% - 3.12% - 158px);
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__caption {
         margin-left: 5%;
-        margin-right: calc(100% - 5% - 158px);
     }
 }

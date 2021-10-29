@@ -13,22 +13,20 @@
 
 <body class="body">
   <div class="page">
-    <header>
-      <div class="header__section-top">
-        <img src="./images/header-logo.svg" alt="Логотип 'Россия'" class="logo">
-        <ul class="header__lang-links">
-          <li class="header__lang-link header__lang-link_active">
-            <a href="#" class="header__lang-link-url link-transparent">
-              Ru
-            </a>
-          </li>
-          <li class="header__lang-link">
-            <a href="#" class="header__lang-link-url link-transparent">
-              En
-            </a>
-          </li>
-        </ul>
-      </div>
+    <header class="header">
+      <img src="./images/header-logo.svg" alt="Логотип 'Россия'" class="logo">
+      <ul class="header__lang-links">
+        <li class="header__lang-link header__lang-link_active">
+          <a href="#" class="header__lang-link-url link-transparent">
+            Ru
+          </a>
+        </li>
+        <li class="header__lang-link">
+          <a href="#" class="header__lang-link-url link-transparent">
+            En
+          </a>
+        </li>
+      </ul>
     </header>
 
     <main class="content">
@@ -39,11 +37,13 @@
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <img src="./images/lead-polka.jpg" class="lead__main-illustration"
-          alt="Девушка спит в поезде на верхней полке. На фоне нарисована линия - путь от Пскова до Улан-Удэ со всеми остановками по пути.">
-        <p class="lead__caption">
-          ваша полка &ndash; верхняя
-        </p>
+        <figure class="lead__figure">
+          <img src="./images/lead-polka.jpg" class="lead__main-illustration"
+            alt="Девушка спит в поезде на верхней полке. На фоне нарисована линия - путь от Пскова до Улан-Удэ со всеми остановками по пути.">
+          <figcaption class="lead__caption">
+            ваша полка &ndash; верхняя
+          </figcaption>
+        </figure>
       </section>
 
       <section class="intro">

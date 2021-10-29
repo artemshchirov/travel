@@ -6,7 +6,7 @@
 @import url(../blocks/link-transparent/link-transparent.css);
 
 /* Header */
-@import url(../blocks/header/__section-top/header__section-top.css);
+@import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
@@ -19,6 +19,7 @@
 
 /* Lead */
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__caption/lead__caption.css);

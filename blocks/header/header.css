@@ -1,4 +1,4 @@
-.header__section-top {
+.header {
     width: 100%;
     margin-top: 2.18%;
     display: flex;
@@ -6,19 +6,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .header__section-top {
+    .header {
         margin-top: 2.73%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .header__section-top {
+    .header {
         margin-top: 3.64%;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .header__section-top {
+    .header {
         margin-top: 5%;
     }
 }
