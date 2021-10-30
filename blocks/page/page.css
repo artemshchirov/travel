@@ -1,6 +1,6 @@
 .page {
     margin: 0 auto;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     box-sizing: border-box;
     max-width: 1280px;
     background-color: #2A2C2F;

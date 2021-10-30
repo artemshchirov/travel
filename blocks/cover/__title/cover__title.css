@@ -9,14 +9,15 @@
     text-align: center;
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 560px) {
     .cover__title {
+        max-width: 340px;
         font-size: 48px;
         line-height: 1.08;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     .cover__title {
         max-width: 288px;
         font-size: 32px;

@@ -1,5 +1,5 @@
 .card {
-    padding: 80px 11.5625% 0;
+    padding-top: 80px;
     display: grid;
     grid-template-areas: 
     "title url"
@@ -9,21 +9,21 @@
 
 @media screen and (max-width: 1024px) {
     .card {
-        padding: 80px 4.6875% 0;
+        padding-top: 80px;
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .card {
-        padding: 73px 3.125% 0;
+        padding-top: 73px;
         column-gap: 28px;
     }
 }
 
 @media screen and (max-width: 666px) {
     .card {
-        padding: 50px 5% 0;
+        padding-top: 50px;
         grid-template-areas: 
         "title"
         "url"
@@ -33,9 +33,8 @@
     }
 }
 
-
 @media screen and (max-width: 320px) {
     .card {
-        padding: 50px 0 0;
+        padding-top: 50px;
     }
 }

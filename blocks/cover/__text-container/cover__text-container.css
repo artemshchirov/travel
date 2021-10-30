@@ -7,9 +7,8 @@
     flex-grow: 1;
     background-color: rgba(42, 44, 47, .3);
     transition: background-color .3s ease-out;
-    overflow: hidden;
 }
 
 .cover__text-container:hover {
-    background-color: rgba(42, 44, 47, .7);
+    background-color: rgba(42, 44, 47, .8);
 }

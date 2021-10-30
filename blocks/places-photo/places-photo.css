@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 320px) {
     .places-photo {
-        gap: 12px;
+        gap: 12px; 
         padding: 64px 5% 0;
     }
 }

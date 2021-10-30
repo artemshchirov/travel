@@ -1,8 +1,8 @@
 .card__image {
-    grid-area: img;
     max-width: 460px;
+    width: 100%;
+    grid-area: img;
     justify-self: center;
-    /* box-sizing: border-box; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,9 +17,8 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     .card__image {
         max-width: 320px;
-        width: 100%;
     }
 }
