@@ -1,7 +1,7 @@
 .card__text {
     grid-area: text;
     width: 484px;
-    margin: 0 auto;
+    margin: 0;
     padding-top: 27px;
     color: #fff;
     font-style: normal;
@@ -36,6 +36,7 @@
 
 @media screen and (max-width: 666px) {
     .card__text {
+        margin: 0 auto;
         width: 340px;
     }
 }

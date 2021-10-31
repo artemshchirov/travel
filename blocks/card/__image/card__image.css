@@ -2,7 +2,7 @@
     max-width: 460px;
     width: 100%;
     grid-area: img;
-    margin: 0 auto;
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,7 +17,13 @@
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 666px) {
+    .card__image {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 380px) {
     .card__image {
         max-width: 320px;
     }

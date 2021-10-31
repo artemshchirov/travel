@@ -1,9 +1,15 @@
 .card__link-container {
-    margin: 0 auto;
+    margin: 0;
     grid-area: url;
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+
+@media screen and (max-width: 666px) {
+    .card__link-container {
+        margin: 0 auto;
+        }
 }
 
 @media screen and (max-width: 320px) {
