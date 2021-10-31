@@ -1,4 +1,5 @@
 .card__link-container {
+    margin: 0 auto;
     grid-area: url;
     display: flex;
     flex-direction: column;

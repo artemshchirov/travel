@@ -1,7 +1,7 @@
 .card__text {
     grid-area: text;
     width: 484px;
-    margin: 0;
+    margin: 0 auto;
     padding-top: 27px;
     color: #fff;
     font-style: normal;
