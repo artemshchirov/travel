@@ -1,19 +1,10 @@
 .card__link-container {
-    margin: 0;
-    grid-area: url;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+    align-self: flex-end;
+    max-width: 456px;
 }
 
-@media screen and (max-width: 666px) {
+@media screen and (max-width: 1023px) {
     .card__link-container {
-        margin: 0 auto;
-        }
-}
-
-@media screen and (max-width: 320px) {
-    .card__link-container {
-        margin: 0 5%;
-        }
+        max-width: 352px;
+    }
 }

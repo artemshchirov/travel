@@ -1,40 +1,27 @@
 .card {
-    padding: 80px 11.5625% 0;
     display: grid;
-    grid-template-areas: 
-    "title url"
-    "img text";
+    grid-template-columns: 460px 1fr;
     gap: 48px 40px;
+    /* margin-bottom: 0; */
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .card {
-        padding: 80px 4.6875% 0;
-        column-gap: 32px;
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .card {
-        padding: 73px 3.125% 0;
-        column-gap: 28px;
+        grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
     }
 }
 
-@media screen and (max-width: 666px) {
+@media screen and (max-width: 767px) {
     .card {
-        padding: 50px 5% 0;
-        grid-template-areas: 
-        "title"
-        "url"
-        "img"
-        "text";
-        gap: 32px 0;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .card {
-        padding: 50px 0 0;
+        grid-template-columns: 1fr;
+        grid-gap: 32px 25px;
     }
 }

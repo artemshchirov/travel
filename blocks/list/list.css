@@ -1,10 +1,28 @@
 .list {
     margin: 33px 0 0;
     padding: 0;
+    box-sizing: border-box;
+    display: inline-block;
     list-style: none;
     color: #fff;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 1.5;
+    text-align: left;
+}
+
+@media screen and (max-width: 1023px) {
+    .list {
+        margin: 33px 24px 0;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .list {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 288px;
+    }
 }

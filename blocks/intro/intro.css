@@ -1,24 +1,29 @@
 .intro {
-    /* box-sizing: border-box; */
+    margin: 0 auto;
+    padding-top: 92px;
+    max-width: 984px;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 92px 34.53% 0 11.56%;
+    justify-content: flex-start;
+
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .intro {
-        padding: 92px 27.92% 0 4.6875%;
+        max-width: 928px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro {
-        padding: 88px 3.12% 0;
+        padding-top: 88px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro {
-        padding: 64px 5% 0;
+        padding: 64px 16px 0;
     }
 }

@@ -1,35 +1,16 @@
 .card__title {
     margin: 0;
-    padding: 0;
-    grid-area: title;
-    max-width: min-content;
-    font-style: normal;
-    font-weight: 900;
+    align-self: flex-start;
     font-size: 72px;
     line-height: 1.06;
+    font-style: normal;
+    font-weight: 900;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .card__title {
+        max-width: 340px;
         font-size: 42px;
         line-height: 1.1;
-        }
-}
-
-@media screen and (max-width: 666px) {
-    .card__title {
-        font-size: 32px;
-        max-width: 100%;
-        width: 320px;
-        margin: 0 auto;
-        text-align: center;
-        }
-}
-
-@media screen and (max-width: 320px) {
-    .card__title {
-        line-height: 1.09;
-        margin-left: 5%;
-        text-align: start;
         }
 }

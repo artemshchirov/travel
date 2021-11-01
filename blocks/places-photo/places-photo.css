@@ -1,27 +1,29 @@
 .places-photo {
+    padding: 92px 48px 0;
+    width: 100%;
     box-sizing: border-box;
-    padding: 92px 3.75% 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .places-photo {
-        padding: 92px 4.6875% 0;
+        gap: 14px;
     }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .places-photo {
-        padding: 88px 3.125% 0;
+        padding: 88px 24px 0;
+        gap: 16px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .places-photo {
+        padding: 64px 16px 0;
         gap: 12px;
-        padding: 64px 5% 0;
     }
 }
