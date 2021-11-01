@@ -34,7 +34,6 @@
 
 /* Places-description */
 @import url(../blocks/places-description/places-description.css);
-@import url(../blocks/places-description/__list/places-description__list.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__link-container/card__link-container.css);

@@ -1,6 +1,6 @@
 .lead__caption {
-    margin: 8px auto 0  0;
-    text-align: start;
+    margin: 8px 0 0;
+    align-self: flex-start;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -9,14 +9,14 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .lead__caption {
-        margin-left: 3.12%;
+        margin-left: 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .lead__caption {
-        margin-left: 5%;
+        margin: 8px 0 0 16px;
     }
 }
