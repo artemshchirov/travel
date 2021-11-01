@@ -8,3 +8,9 @@
         max-width: 352px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .card__link-container {
+        padding: 0 16px;
+    }
+}

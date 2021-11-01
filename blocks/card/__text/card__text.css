@@ -1,5 +1,6 @@
 .card__text {
-    margin: 0 0 26px;
+    margin: 0;
+    padding: 0 0 26px;
     color: #fff;
     font-size: 18px;
     line-height: 1.63;
@@ -8,7 +9,7 @@
 }
 
 .card__text:last-of-type {
-    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
@@ -21,6 +22,6 @@
 
 @media screen and (max-width: 767px) {
     .card__text {
-        margin: 0 16px 25px;
+        padding: 0 16px 25px;
     }
 }
