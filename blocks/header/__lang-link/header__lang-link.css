@@ -1,5 +1,5 @@
 .header__lang-link {
-    padding: 18px 18px 0 0;
+    padding-right: 18px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -10,9 +10,8 @@
     padding-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .header__lang-link {
-        padding-top: 14px;
         font-size: 18px;
         line-height: 1.11; 
     }

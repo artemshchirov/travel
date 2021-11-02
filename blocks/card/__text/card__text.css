@@ -1,6 +1,7 @@
 .card__text {
     margin: 0;
     padding: 0 0 26px;
+    max-width: 484px;
     color: #fff;
     font-size: 18px;
     line-height: 1.63;
@@ -12,9 +13,15 @@
     padding-bottom: 0;
 }
 
+@media screen and (max-width: 1279px) {
+    .card__text {
+        max-width: 456px;
+    }
+}
 
 @media screen and (max-width: 1023px) {
     .card__text {
+        max-width: 352px;
         font-size: 16px;
         line-height: 1.63;
     }
@@ -23,5 +30,18 @@
 @media screen and (max-width: 767px) {
     .card__text {
         padding: 0 16px 25px;
+        max-width: 565px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .card__text {
+        max-width: 365px;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .card__text {
+        max-width: 288px;
     }
 }

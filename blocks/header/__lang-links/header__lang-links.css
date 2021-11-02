@@ -1,24 +1,12 @@
 .header__lang-links {
-    margin: auto 3.75% 0 0;
+    margin: 18px 0 0;
     padding: 0;
     list-style: none;
     display: flex;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
     .header__lang-links {
-        margin-right: 4.68%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header__lang-links {
-        margin-right: 3.12%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header__lang-links {
-        margin-right: 5%;
+        margin-top: 16px;
     }
 }

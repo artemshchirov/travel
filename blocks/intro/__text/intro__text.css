@@ -18,5 +18,19 @@
 @media screen and (max-width: 767px) {
     .intro__text {
         margin-left: 0;
+        max-width: 568px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .intro__text {
+        margin-left: 0;
+        max-width: 368px;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .intro__text {
+        max-width: 288px;
     }
 }
