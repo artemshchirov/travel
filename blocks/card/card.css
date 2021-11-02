@@ -21,13 +21,19 @@
 
 @media screen and (max-width: 767px) {
     .card {
-        grid-template-columns: 567px;
-        grid-gap: 32px 25px;
+        grid-template-columns: 540px;
+        gap: 32px 25px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 567px) {
     .card {
-        grid-template-columns: 320px;
+        grid-template-columns: 400px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card {
+        grid-template-columns: 1fr;
     }
 }
