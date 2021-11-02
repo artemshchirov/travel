@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 867px) {
+@media screen and (max-width: 767px) {
     .places-photo {
         padding: 64px 16px 0;
         gap: 12px;
