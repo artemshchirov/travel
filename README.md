@@ -1,27 +1,18 @@
-# Проект: Путешествие по России
+# Learning How to Learn
 
-*По мотивам учебной темы о Транссибе  
-— путешествие от столицы до Байкала на электричках.*  
+## Project Description:
+*This project is showcasing the knowledge learned from Practicum's Advanced HTML & CSS class.*
 
-[Ссылка на проект](https://artemschirov.github.io/russian-travel/index.html)
+It is a web page describing various learning strategies, from experts such as Barbara Oakley, Feynman, Salman Khan, and Josh Kaufman.
 
-## Сайт о путешествиях
+## Technologies and Techniques Used:
+This web page was created with HTML and CSS as a culmination of the skills learned in the Advanced HTML & CSS course.
 
-* Карты
-* Особенные места
-* Путеводитель
-* Захватывающие дух кадры
-* Интригующие истории
+### Some of the skills used are:
 
-## Адаптивность
-
-* 320px
-* 768px
-* 1024px
-* 1280px
-
-## TODO
-
-1. Адаптинвость для промежуточной ширины экрана
-
-2. Английский перевод страницы
+* BEM methodology
+* Element positioning
+* Git
+* Flexbox
+* iframe
+* CSS Animations
