@@ -5,4 +5,5 @@
 
 .link-transparent:hover {
     opacity: .8;
+    text-decoration: underline;
 }

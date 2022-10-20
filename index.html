@@ -2,48 +2,48 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>Путешествие по России</title>
-    <meta name="description" content="Путешествие по России" />
+    <title>Путешествие</title>
+    <meta name="description" content="Travel" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="html, css, adaptive" />
-    <meta name="author" content="Артём Щиров на Яндекс Практикум" />
+    <meta name="author" content="Artem Shchirov" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <script src="./scripts/lang.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
   </head>
 
   <body class="body">
     <div class="page">
       <header class="header">
         <img
-          src="./images/header-logo.svg"
-          alt="Логотип 'Россия'"
+          src="./images/header-logo-en.svg"
+          alt="Логотип 'Практикум'"
           class="logo"
+          id="logo"
         />
+
         <ul class="header__lang-links">
           <li class="header__lang-link">
-            <a
-              href="#"
-              class="header__lang-link-url header__lang-link-url_active link-transparent"
-            >
-              Ru
-            </a>
+            <a href="#" class="header__lang-link-url link-transparent"> EN </a>
           </li>
           <li class="header__lang-link">
-            <a href="#" class="header__lang-link-url link-transparent"> En </a>
+            <a href="#" class="header__lang-link-url link-transparent"> RU </a>
           </li>
         </ul>
       </header>
 
       <main class="content">
         <section class="lead">
-          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-          <p class="lead__subtitle">
+          <h1 class="lead__title" id="lead__title">Путешествие</h1>
+          <p class="lead__subtitle" id="lead__subtitle">
             Настоящая&nbsp;страна&nbsp;не&nbsp;в&nbsp;выпусках
             новостей,&nbsp;а&nbsp;здесь.
           </p>
           <figure class="lead__figure">
             <img
-              src="./images/lead-polka.jpg"
+              src="./images/lead-image-ru.png"
               class="lead__main-illustration"
+              id="lead__main-illustration"
               alt="Девушка спит в поезде на верхней полке. На фоне нарисована линия - путь от Пскова до Улан-Удэ со всеми остановками по пути."
             />
             <figcaption class="lead__caption">

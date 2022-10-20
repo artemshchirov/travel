@@ -12,7 +12,7 @@
 
 ## Project Description
 
-It is a web page describing various stops along the way of a bike trip from Portland, ME to Portland, OR.
+It is a web page describing various stops along the way of a bike trip from Portland, ME to Portland, OR, etc.
 
 ## Technologies and Techniques Used
 
@@ -20,6 +20,7 @@ This web page was created with HTML and CSS and made adaptive to different scree
 
 ### Some of the skills used are
 
+- localization: EN, RU
 - Working with Figma
 - Grid layout
 - Developing an interface for different layouts
