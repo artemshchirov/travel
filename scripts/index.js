@@ -1,7 +1,13 @@
-const select = document.querySelector('.change-lang');
 const langLinks = document.querySelectorAll('.header__lang-link-url');
 const allLang = ['en', 'ru'];
 const defaultLang = localStorage.getItem('lang') || 'en';
+
+const changeImageLanguage = (lang) => {
+  for (let key in langImagesObj) {
+    const image = document.getElementById(key);
+    if (image) image.src = langImagesObj[key][lang];
+  }
+};
 
 const changeTextLanguage = (lang) => {
   for (let key in langTextObj) {
@@ -12,14 +18,7 @@ const changeTextLanguage = (lang) => {
       } else {
         elem.textContent = langTextObj[key][lang];
       }
-    } 
-  }
-};
-
-const changeImageLanguage = (lang) => {
-  for (let key in langImagesObj) {
-    const image = document.getElementById(key);
-    if (image) image.src = langImagesObj[key][lang];
+    }
   }
 };
 
