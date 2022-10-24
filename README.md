@@ -1,14 +1,8 @@
 # Travel
 
-## Project Link
+## Have a look at the project on GitHub Pages
 
 <https://artemshchirov.github.io/travel/>
-
-## Getting Started
-
-1. `git@github.com:artemshchirov/travel.git`
-
-2. Use liveserver or open index.html
 
 ## Project Description
 
@@ -20,7 +14,6 @@ This web page was created with HTML and CSS and made adaptive to different scree
 
 ### Some of the skills used are
 
-- localization: EN, RU
 - Working with Figma
 - Grid layout
 - Developing an interface for different layouts
@@ -28,3 +21,29 @@ This web page was created with HTML and CSS and made adaptive to different scree
 - Optimizing fonts for different resolutions
 - Media queries
 - Advanced Git, including branches and deploying to GitHub Pages
+- Custom localization
+
+## Getting Started
+
+```bash
+1. git clone https://github.com/artemshchirov/travel.git
+2. Use liveserver or open index.html
+```
+
+## Demo Functionality
+
+### Custom localization
+
+![localization.gif](gifs/travel-localization.gif)
+
+### Adaptive
+
+![adaptive.gif](gifs/travel-adaptive.gif)
+
+### Grid layout
+
+![grid.gif](gifs/travel-grid.gif)
+
+### Hover
+
+![hover.gif](gifs/travel-hover.gif)
